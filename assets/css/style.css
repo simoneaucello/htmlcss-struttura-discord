@@ -20,12 +20,17 @@ header{
 .container{
   display: flex;
   margin: 0 auto;
-  /* max-width: 1900px; */
+  width: 1300px;
 }  
 
 .logo-img{
   width: 200px;
 
+}
+
+.debug{
+  background-color: rgb(255, 183, 0);
+  border: 1px solid black;
 }
 
 nav{
@@ -51,10 +56,6 @@ nav ul li a:hover{
   background-color: rgb(135, 0, 0);
 }
 
-.debug{
-  background-color: rgb(255, 183, 0);
-  border: 1px solid black;
-}
 
 .login{
   width: 200px;
@@ -65,15 +66,87 @@ nav ul li a:hover{
   justify-content: center;
   align-items: center;
   background-color:#000084;
-  height: 500px;
+  height: 600px;
 }
 
-.jumbo-text{
+.jumbo-box{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   background-color: #df86e8;
+  width: 1000px;
+  height: 500px;
+}
+
+.box-channel{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  height: 500px;
+}
+
+.box-channel .channel-img{
   width: 800px;
   height: 400px;
+  background-color: #478df7;
+}
+
+.channel-text{
+  background-color: #df86e8;
+  width: 600px;
+  height: 400px;
+
+}
+
+
+
+.box-vocal{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #d2d2d2;
+  height: 500px;
+}
+
+
+.vocal-text{
+  background-color: #df86e8;
+  width: 600px;
+  height: 400px;
+}
+
+.box-vocal .vocal-img{
+  width: 800px;
+  height: 400px;
+  background-color: #478df7;
+}
+
+.box-community{
+  background-color: white;
+  height: 500px;
+}
+
+.box-video{
+  background-color: #d2d2d2;
+  height: 800px;
+}
+
+
+
+
+
+
+
+
+.utilities{
+  height:500px;
+  background-color: #282b2e;
+}
+
+.final{
+  height:100px;
+  background-color: #282b2e;
+  margin-top:2px;
 }
